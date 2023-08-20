@@ -42,12 +42,12 @@ config = {
 
 if (process.env.NODE_ENV === "production") {
   sequelize = new Sequelize(
-    "postgresql://localhost/urbancribs?user=postgres&password=secret",
+    "postgres://urbancribsdbinstance_user:EN0hip4tKQLqIoj2FMMQ5V1GN9e2kQGU@dpg-cjh827r37aks739hc21g-a/urbancribsdbinstance",
     config
   );
 } else {
   sequelize = new Sequelize(
-    "postgresql://localhost/urbancribs?user=postgres&password=secret",
+    "postgres://urbancribsdbinstance_user:EN0hip4tKQLqIoj2FMMQ5V1GN9e2kQGU@dpg-cjh827r37aks739hc21g-a/urbancribsdbinstance",
     config
   );
 }
