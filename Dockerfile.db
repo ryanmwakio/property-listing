@@ -1,0 +1,5 @@
+FROM postgres:alpine
+ENV POSTGRES_USER=urbancribs
+ENV POSTGRES_PASSWORD=urbancribs
+ENV POSTGRES_DB=urbancribs
+EXPOSE 5432
